@@ -1,0 +1,15 @@
+#btnvisualDOM{
+   background-color: #004d40 !important;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: inherit;
+   display:inline-block;
+   //margin-left: 1300px;
+   //position: fixed;
+
+
+}
+#btnvisualDOM:hover{
+   background-color: red;
+}

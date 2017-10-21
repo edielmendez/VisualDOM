@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visual DOM Test</title>
+  <script src="libs/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="libs/js/go.js" charset="utf-8"></script>
+  <script src="libs/js/visualDOM.js" charset="utf-8"></script>
+  <script src="libs/js/materialize.min.js" charset="utf-8"></script>
+  <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+
+  <link rel="stylesheet" href="libs/css/materialize.css">
+
+</head>
+<body>
+   <nav class="teal darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">VisualDOM</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Ver en GitHub</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Ver en GitHub</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Visual DOM</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Un plugin Javascript para el aprendizaje de HTML y Javascript de manera gráfica</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Empezar</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Sobre HTML</h5>
+
+            <p class="light">Te ayuda a visualizar de manera grafica los elementos HTML que contiene tu página web.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Sobre CSS</h5>
+
+            <p class="light">Al visual de mejor manera el contenido HTML de tu página web, podras entender el funcionamiento de CSS y como trabaja sobre los elemetos HTML.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Sobre Javascript</h5>
+
+            <p class="light">Con un mejor entendimiento del arbol DOM(Document Object Model) de tu página web,podrás incorporar Javascript a tu página web para agregarle dinamismo de una forma mas entendible y rapida,   pues entenderas como funcionan los selectores Javascript sobre los elementos HTML representados por el DOM.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Desarrollado por:</h5>
+          <p class="grey-text text-lighten-4">Ediel Méndez Vásquez un desarrollador apasionado por las tecnologias web y de desarrollo de software en general.</p>
+
+
+        </div>
+
+        <div class="col l6 s12">
+          <h5 class="white-text">Stack de tecnologias</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Javascript</a></li>
+            <li><a class="white-text" href="#!">HTML 5</a></li>
+            <li><a class="white-text" href="#!">CSS 3</a></li>
+            <li><a class="white-text" href="#!">JQuery.js</a></li>
+            <li><a class="white-text" href="#!">Go.js</a></li>
+            <li><a class="white-text" href="#!">Materialize.css</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Construido como proyecto de servicio social<a class="orange-text text-lighten-3" href="http://materializecss.com"> Para NovaUniversitas</a>
+      </div>
+   </div>
+  </footer>
+  <nav>
+    <div class="nav-wrapper teal lighten-2">
+      <a href="#" class="brand-logo center">Plugin en acción</a>
+    </div>
+  </nav>
+  <br>
+  <br>
+   <button type="button" name="button" id="btnvisualDOM" class="fixed-action-btn horizontal ">Mostrar VisualDOM</button>
+   <div id="diVisualDOM" style="border: 1px solid black; width:100%; height:500px;display:none"></div>
+   <br>
+   <br>
+   <br>
+</body>
+
+
+</html>
