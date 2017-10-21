@@ -9,10 +9,10 @@ Plugin que representa el árbol DOM de una página web de manera gráfica.
 <addr><script src="libs/js/go.js" charset="utf-8"></script><br>
 <addr><script src="libs/js/visualDOM.js" charset="utf-8"></script><br>
 4. Agrega el siguiente fragmento de código al final de tu pagina HTML
-
+`ddddddd`
 
 5. Se visualizará un boton con la etiqueta Mostrar VisualDOM.
-6. Click en el boton para ver y ocultar la la representación del arbol DOM de manera gráfica.
+6. Click en el botón para ver y ocultar la la representación del arbol DOM de manera gráfica.
 # Página web
 
 [VisualDOM](https://edielmendez.github.io/VisualDOM/)
